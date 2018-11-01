@@ -1,4 +1,5 @@
 // import server
+require("dotenv").config();
 const { server } = require("./server.js");
 
 // server port
