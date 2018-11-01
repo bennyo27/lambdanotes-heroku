@@ -1,0 +1,21 @@
+{
+  "name": "back-end-project-week",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bennyo27/back-end-project-week.git",
+  "author": "benny <oseguerabenny27@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "knex": "^0.15.2",
+    "lock": "^1.1.0",
+    "nodemon": "^1.18.5",
+    "sqlite": "^3.0.0"
+  },
+  "scripts": {
+    "server": "nodemon ./server/index.js"
+  }
+}
