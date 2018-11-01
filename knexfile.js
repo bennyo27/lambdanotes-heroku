@@ -30,7 +30,10 @@ module.exports = {
       max: 10
     },
     migrations: {
-      tableName: "knex-migrations",
+      tableName: "notes",
+      directory: "./data/migrations"
+    },
+    seeds: {
       directory: "./data/seeds"
     }
   }
